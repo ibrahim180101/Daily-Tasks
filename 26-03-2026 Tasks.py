@@ -128,7 +128,7 @@ Bonus: Check if file is closed
 '''
 
 with open("team_data.txt", "w") as f:
-    f.write("Name: Ibrahim\nAge: 22\nRole: Developer")
+    f.write("Name: Ibrahim  Age: 25  Role: Cloud Engineer")
 
 with open("team_data.txt", "r") as f:
     print(f.read())
